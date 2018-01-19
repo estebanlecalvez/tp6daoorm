@@ -29,4 +29,8 @@ public class Book {
         this.bookItems = bookItems;
     }
 
+	public Book() {
+		// TODO Auto-generated constructor stub
+	}
+
 }

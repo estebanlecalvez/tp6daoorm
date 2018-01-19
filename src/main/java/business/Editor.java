@@ -17,7 +17,9 @@ public class Editor {
     
     @ManyToMany(mappedBy="books")
     public List<Book> books;
-
+public Editor() {
+	// TODO Auto-generated constructor stub
+}
     public Editor(Integer id, String name,List<Book> books) {
         this.id = id;
         this.name = name;
