@@ -14,12 +14,12 @@ public class BookDAO {
 	
 	
 	/**
-	 * Create new customer in dummy database. Updates the id and insert new
-	 * customer in list.
+	 * Create new book in dummy database. Updates the id and insert new
+	 * book in list.
 	 * 
-	 * @param customer
-	 *            Customer object
-	 * @return customer object with updated id
+	 * @param book
+	 *            Book object
+	 * @return book object with updated id
 	 */
 	public Book create(Book book) {
 		book.id=(int) System.currentTimeMillis();
